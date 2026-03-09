@@ -1,5 +1,6 @@
 import Image from "next/image";
-import link from "next/link";
+import Link from "next/link";
+import { LiaBuyNLarge } from "react-icons/lia";
 
 export default function Home() {
   return (
@@ -59,9 +60,8 @@ export default function Home() {
                 <a class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500" href="#">
                   Login
                 </a>
-                  
-                <a class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75" href="/register.js">
-                  link
+                <a class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block dark:bg-gray-800 dark:text-white dark:hover:text-white/75" href="/register">
+                  Register
                 </a>
               </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
           Send Message
         </button>
       </form>
-
+      <Link href={"/register"}>Register</Link>
 
 
     </div>
