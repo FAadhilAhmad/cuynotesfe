@@ -15,7 +15,7 @@ export default function Home() {
           </a>
 
           <div className="flex flex-1 items-center justify-end md:justify-between">
-            <nav aria-label="Global" className="hidden md:block">
+            <nav aria-lebel="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
                   <a className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="#">
@@ -78,25 +78,25 @@ export default function Home() {
       <form action="#" className="mx-auto max-w-md space-y-4 rounded-lg border border-gray-300 bg-gray-100 p-6 dark:border-gray-600 dark:bg-gray-800
       ">
         <div>
-          <label className="block text-sm font-medium text-gray-900 dark:text-white" for="Username">
+          <htmlFor className="block text-sm font-medium text-gray-900 dark:text-white" for="Username">
             Username
-          </label>
+          </htmlFor>
 
           <input className="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white" id="name" type="text" placeholder="Your username" />
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-900 dark:text-white" for="email">
+          <htmlFor className="block text-sm font-medium text-gray-900 dark:text-white" for="email">
             Email
-          </label>
+          </htmlFor>
 
           <input className="mt-1 w-full rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white" id="email" type="email" placeholder="Your email" />
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-900 dark:text-white" for="message">
+          <htmlFor className="block text-sm font-medium text-gray-900 dark:text-white" for="message">
             Message
-          </label>
+          </htmlFor>
 
           <textarea className="mt-1 w-full resize-none rounded-lg border-gray-300 focus:border-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-900 dark:text-white" id="message" rows="4" placeholder="Your message"></textarea>
         </div>
@@ -105,7 +105,7 @@ export default function Home() {
           Send Message
         </button>
       </form>
-     
+
 
 
     </div>

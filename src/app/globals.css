@@ -24,12 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-form{
+
+form {
   margin-top: 50px;
-  
+
 }
-.coba{
+
+.coba {
   width: 50%;
   height: 50%;
   margin: 20px;
+}
+
+.form1 {
+  justify-content: center;
+  align-items: center;
 }
