@@ -3,10 +3,10 @@ import react from "react";
 function page() {
     return (
         <div>
-            <div className="min-h-screen grid place-items-center bg-black ">
-                <form className="w-80">
+            <div className="min-h-screen grid place-items-center ">
+                <form className="w-full max-w-96 bg-white p-12 rounded-xl shadow-md">
 
-                    <div className="mb-4">
+                    <div className="p-20px">
                         <label className="block text-gray-500 font-bold mb-1" htmlFor="full-name">
                             Full Name
                         </label>
